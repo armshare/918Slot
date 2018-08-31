@@ -1,0 +1,26 @@
+
+/* Promotion Page */
+.modal-body {
+    padding: 0rem;
+}
+
+.header_pro {
+    font-family: 'Prompt','Courier New', Courier, monospace;
+    position: relative;
+    font-size: 40px;
+    color: orangered;
+    text-transform: normal;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+}
+
+@media(max-width:576px) {
+   
+    #main-content {
+        margin-top: -10px ;
+      
+    }
+    .mt-4, .my-4 {
+        margin-top: 0rem !important;
+    }
+}

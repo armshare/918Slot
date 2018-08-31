@@ -1,0 +1,953 @@
+/*@font-face {
+  font-family: 'DSNPatPongExtend';
+  src: url('../webfonts/DSNPatPongExtend.eot?#iefix') format('embedded-opentype'),  url('../webfonts/DSNPatPongExtend.woff') format('woff'), url('../webfonts/DSNPatPongExtend.ttf')  format('truetype'), url('../webfonts/DSNPatPongExtend.svg#DSNPatPongExtend') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*@font-face {
+	font-family: 'tahoma';
+	src: url('fonts/SFProTH-Regular.eot');
+	src: local('☺'), url('fonts/SFProTH-Regular.woff') format('woff'), url('fonts/SFProTH-Regular.ttf') format('truetype'), url('fonts/SFProTH-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+
+a:hover {
+    text-decoration: none;
+    opacity: .7;
+}
+
+#payment img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.main-box {
+    padding: 15px;background: #fff;margin-bottom: 15px;border-radius: 8px;border:1px solid #edf2f9; display: block;
+}
+
+.main-box-shadow {
+    padding: 15px;background: #fff;margin-bottom: 15px;border-radius: 8px;box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03); display: block; border:1px solid #edf2f9;
+}
+
+.main-box-red {
+    padding: 15px;background: #fff;margin-bottom: 15px;border-radius: 8px;box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03); display: block; border:1px solid #edf2f9;color: #333; display: block;
+}
+
+#payment .container img {
+    max-width: 500px;
+}
+
+.contact {
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
+
+.contact ul {
+    list-style: nonel;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.contact li {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+a:visited, a:active {
+    outline: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'tahoma';
+}
+
+body {
+    font-size: 12px;
+    background: #090c08;
+}
+
+.form-register {
+    text-align: center;
+}
+
+.login-tomember-system{
+    background: linear-gradient(#cc4a46, #911e1a);
+    background-color: #911e1a;
+    color: #ffffff;
+    border-bottom: 3px solid #4d1412;
+    width: 100%;
+    font-family: 'tahoma';
+    font-size: 24px;
+}
+.form-register div > div {
+    padding-bottom: 5px;
+}
+
+.modal-dialog {
+    max-width: 720px;
+}
+
+.form-register p {
+    width: 100%;
+}
+
+.btn-primary {
+    background: linear-gradient(#cc4a46, #911e1a);
+    background-color: #911e1a;
+    color: #ffffff;
+    border-bottom: 3px solid #4d1412;
+    border-radius: 8px;
+    /*margin-left: 20px;*/
+    outline: none !important;
+    border-color: #4d1412;
+    font-family: 'tahoma';
+    font-size: 20px;
+}
+
+.close {
+    color: #fff;
+}
+
+.form-control-lg, .input-group-lg>.form-control, .input-group-lg>.input-group-append>.btn, .input-group-lg>.input-group-append>.input-group-text, .input-group-lg>.input-group-prepend>.btn, .input-group-lg>.input-group-prepend>.input-group-text, .btn-group-lg>.btn, .btn-lg {
+    border-radius: 8px;
+}
+
+#main-header .navbar {
+    overflow: hidden;
+    background: rgba(9, 12, 8, 0.95) !important;
+    overflow: inherit;
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(to right, #000, #e6cc95, #000);
+    border-image-slice: 20;
+}
+
+.w3-left {
+    float: left!important;
+}
+
+.table td, .table th {
+    border: 0 !important;
+}
+
+#main-header .navbar .navbar-brand {
+    text-indent: -99999px;
+}
+
+#main-header .navbar .logo {
+    margin-top: 25px;
+    position: absolute;
+    z-index: 999;
+    /* background: #090c08; */
+    padding: 10px 5px 15px 7px;
+    border-radius: 50%;
+}
+/* 
+#main-header .navbar .nav-item:last-child {
+    background: linear-gradient(#cc4a46, #911e1a);
+    background-color: #911e1a;
+    color: #ffffff;
+    border-bottom: 3px solid #4d1412;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+#main-header .navbar .nav-item:last-child a {
+    color: #fff;
+    padding: .5rem 15px;
+} */
+
+#main-header .navbar .nav-link {
+    font-family: 'tahoma';
+    font-size: 18px;
+    padding: 8px 20px
+}
+
+#slider {
+    background: url('https://slot999.com/assets/images/bg-slider.jpg') center bottom no-repeat;
+    background-size: 1920px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#slider .carousel-indicators {
+    justify-content: flex-end;
+    margin: 0;
+}
+
+#slider .carousel-indicators li {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+#slider img {
+    max-width: 90%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+#jackpot {
+    background: url('https://slot999.com/assets/images/bg-jackpot.png') center bottom no-repeat;
+    height: 70px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin-top: -34px;
+}
+
+#jackpot span {
+    color: #fff;
+    font-size: 24px;
+    position: relative;
+    top: 16px;
+    left: 55px;
+    letter-spacing: 2px;
+}
+
+#jackpot #anID {
+    font-family: 'tahoma';
+}
+
+#login {
+    padding: 15px 0;
+    margin-top: 35px;
+    background: #090c08;
+}
+
+#login .form-login button {
+    width: 100%;
+    font-family: 'tahoma';
+}
+
+#login p {
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+}
+
+#payment {
+    padding: 15px;
+    background: linear-gradient(to right, #ac2a26, #ac2a26, #e0c88c, #ac2a26);
+    background-color: #ac2a26;
+    color: #fff;
+    margin-top: 35px;
+}
+
+#payment .container {
+    position: relative;
+}
+
+#payment p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -5px;
+}
+
+#payment p strong {
+    font-size: 18px;
+    font-family: 'tahoma';
+    font-weight: lighter;
+}
+
+hr {
+    border-top: 1px solid rgb(51, 51, 51);
+}
+
+#content {
+    background: #252525;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#content header h3 {
+    color: #fff !important;
+    border-color: #fff !important;
+    font-size: 16px;
+}
+
+#content header {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+#content article {
+    padding: 15px;
+}
+
+#content article ul {
+    padding-left: 15px;
+}
+
+#main-content {
+    background: url(https://slot999.com/assets/images/bg-content.jpg) center top repeat-y #1d0505;
+    background-size: 1920px;
+}
+
+#main-content .container {
+    background: #fff;
+    padding: 0 30px 30px 30px;
+    /* box-shadow: 0 0px 20px #00000085; */
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+#promotion {
+    overflow: hidden;
+}
+
+#games .container {
+    background: #090c08;
+}
+
+#main-content .banner {
+    padding: 15px 0;
+    position: relative;
+}
+
+#main-content .banner img {
+    width: 100%;
+}
+
+#notice {
+    background: #c1c1c1;
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    /* margin-top: -10px; */
+    border-radius: 8px;
+}
+
+#notice h3 {
+    color: #000;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'tahoma';
+    font-weight: lighter;
+    margin: 0;
+}
+
+#main-content #news header, #promotion header, #content header {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0px 5px #cecece;
+}
+
+#promotion header {
+    margin-top: 5px;
+}
+
+#main-content #news header h3, #promotion header h3, #content header h3 {
+    color: #ac2a26;
+    border-left: 5px solid #090c08;
+    padding-left: 10px;
+    font-size: 28px;
+    font-family: 'tahoma';
+    font-weight: lighter;
+    margin: 0;
+}
+
+#main-content #news header .readmore {
+    border: 1px solid #090c08;
+    color: #090c08;
+    padding: 5px 10px;
+    border-radius: 8px;
+    opacity: .6;
+}
+
+#news header .readmore a {
+    color: #090c08;
+    text-decoration: none;
+}
+
+#news .card, #promotion .card {
+    border: 0;
+    flex: 100%;
+    margin: 0;
+    padding-bottom: 15px;
+    background: transparent;
+}
+
+#news .card img {
+    border-radius: 8px;
+    height: 175px;
+}
+
+#news .card-title {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: 'tahoma';
+    font-weight: lighter;
+}
+
+#news .card-body, #promotion .card-body {
+    padding: 10px;
+}
+
+.sidebar #promotion {
+    background: #090c08;
+    min-height: 300px;
+    border-radius: 8px;
+}
+
+.sidebar #promotion header {
+    padding: 15px 15px 0 15px;
+}
+
+.sidebar #promotion header h3 {
+    color: #fff;
+    font-size: 28px;
+    border-left: 5px solid #dec288;
+    padding-left: 10px;
+    font-family: 'tahoma';
+    font-weight: lighter;
+    margin: 0;
+}
+
+.sidebar #top-rank {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0px 5px #cecece;
+}
+
+.sidebar #top-rank header {
+    padding: 15px;
+}
+
+.sidebar #top-rank header h3 {
+    color: #ac2a26;
+    border-left: 5px solid #090c08;
+    padding-left: 10px;
+    font-size: 28px;
+    font-family: 'tahoma';
+    font-weight: lighter;
+    margin: 0;
+}
+
+.sidebar #promotion article {
+    padding: 15px;
+}
+
+.sidebar #promotion .card {
+    border: 0;
+    flex: 100%;
+    margin: 0;
+    background: transparent;
+    margin-bottom: 10px;
+}
+
+.sidebar #promotion .card:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar #promotion .card img {
+    /* border: 2px solid #e0c88c; */
+    height: 100px;
+    border: 2px solid;
+    border-image-source: linear-gradient(to right, #5a3c07, #e6cc95, #5a3c07);
+    border-image-slice: 20;
+    width: 100%;
+}
+
+.sidebar #promotion .card-title {
+    font-size: 12px;
+    color: #e0c88c;
+}
+
+.sidebar #promotion .card-body {
+    padding: 10px;
+    text-align: center;
+}
+
+#games {
+    padding: 15px;
+}
+
+#games .container {
+    padding: 60px;
+    border: 1px solid;
+    border-image-source: linear-gradient(to right, #5a3c07, #e6cc95, #5a3c07);
+    border-image-slice: 20;
+}
+
+#games header {
+    padding: 15px 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(to right, #5a3c07, #e6cc95, #5a3c07);
+    border-image-slice: 20;
+}
+
+#games header h3 {
+    color: #fff;
+    border-left: 5px solid #dec288;
+    padding-left: 10px;
+    font-size: 28px;
+    font-family: 'tahoma';
+    font-weight: lighter;
+    margin: 0;
+}
+
+#games .card {
+    border: 0;
+    flex: 100%;
+    margin: 0;
+    padding-bottom: 15px;
+    background: transparent;
+    text-align: center;
+}
+
+#games .card img {
+    height: 180px;
+    /* border-bottom: 2px solid;
+    border-left:2px solid;
+    border-image-source: linear-gradient(to right, #5a3c07, #e6cc95, #5a3c07);
+    border-image-slice: 20; */
+}
+
+#games .card-title {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-family: 'tahoma';
+    color: #fff;
+}
+
+#games .card-body {
+    padding: 10px;
+}
+
+#btn-group img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+footer#main-footer {
+    background: #000;
+    min-height: 200px;
+    color: #999;
+    padding: 60px 0;
+    border-top: 3px solid;
+    border-image-source: linear-gradient(to right, #000, #e6cc95, #000);
+    border-image-slice: 20;
+}
+
+footer#main-footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: 'tahoma';
+    color: #fff;
+    border-left: 5px solid #dec288;
+    padding-left: 10px;
+}
+
+footer#main-footer p {
+    padding: 15px;
+}
+
+footer#main-footer ul {
+    padding: 15px;
+}
+
+footer#main-footer ul li a {
+    color: #999;
+}
+
+#main-header .navbar .nav-item {
+    border-right : 1px solid #4e4e4e;
+}
+
+#menu-mobile {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0px 4px rgba(136, 136, 136, 0.25);
+    z-index: 99;
+}
+
+#menu-mobile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 12px 0;
+}
+
+#menu-mobile li {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+#menu-mobile li a {
+    color: #333;
+    font-family: 'tahoma';
+    font-size: 11px;
+    display: block;
+}
+
+#menu-mobile li a i {
+    display: block;
+    font-size: 20px;
+}
+
+#menu-mobile ul.menu-more {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+    display: none;
+}
+
+#menu-mobile ul.menu-more li {
+    width: 50%;
+    float: left;
+    color: #000;
+    text-align: left;
+    padding: 15px;
+    border-top: 1px solid #efefef;
+}
+
+.block {
+    display: block !important;
+}
+
+#top-tank .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background: #000;
+    color: #fff !important;
+}
+
+#top-rank .nav-tabs .nav-link {
+    color: #555;
+    border-radius: 0;
+    border: 0;
+}
+
+.none {
+    display: none !important;
+}
+
+#menu-mobile ul.menu-more li a {
+    color: #000;
+}
+
+#menu-mobile ul.menu-more li a i {
+    display: inline;
+    padding-right: 10px;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+#login a {
+    width: 100%;
+}
+
+#login .form-login a {
+    width: 100%;
+    background: #090c08 !important;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+}
+
+/* #games {display: none;} */
+
+@media(max-width:1920px) {
+    #slider {
+        background-size: cover;
+    }
+}
+@media(max-width:991px) {
+    #menu-mobile {
+        display: block;
+    }
+    footer#main-footer, .navbar button {
+        display: none;
+    }
+    #payment .container .row img {
+        width: 100%;
+    }
+    #payment .row div:first-child {
+        padding-top: 0;
+    }
+    #main-content section, aside.sidebar {
+        width: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    #main-content {
+        margin-bottom: 65px;
+    }
+    #promotion {
+        overflow: hidden;
+        padding: 15px 0;
+    }
+    .sidebar #promotion .card {
+        width: 50%;
+        flex: 50%;
+        float: left;
+    }
+    .logo {
+        width: 16%;
+        left: 42%;
+    }
+    .logo img {
+        max-width: 100%;
+    }
+    .nav-mobile {
+        display: block;
+    }
+    #main-header .navbar .navbar-brand, .nav-mobile {
+        text-indent: 0;
+        font-family: 'DSNPatPongExtend';
+        color: #dfc68b;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:768px) {
+    #jackpot {
+        /* display: none; */
+        background-size: 1000px;
+        margin-top: -48px;
+    }
+    #login {
+        margin-top: 25px;
+    }
+    #content {
+        margin-right: -15px;
+        margin-left: -15px;
+        border-radius: 0;
+    }
+    #payment {
+        border-bottom: 10px solid #e1e1e1;
+        margin-top: 15px;
+    }
+    #jackpot span {
+        font-size: 16px;
+        top: 36px;
+        left: 45px;
+    }
+    #notice .row div:first-child {
+        display: none;
+    }
+    #login .row div {
+        padding-bottom: 5px;
+    }
+    .logo {
+        width: 20%;
+        left: 40%;
+    }
+    .width50 {
+        width: 50% !important;
+        float: left;
+    }
+    .width50 button, .width50 a {
+        width: 100%;
+    }
+}
+
+@media(max-width:576px) {
+    .sidebar #promotion .card img {
+        height: 65px;
+    }
+    .sidebar {
+        display: none;
+    }
+    #main-content #news header, #promotion header {
+        border-bottom: 0;
+    }
+    #promotion header {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #news .card-body {
+        padding: 15px;
+    }
+    #main-content .container {
+        padding: 0;
+    }
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .sidebar, #news, #news .card {
+        padding: 0;
+    }
+    #promotion {
+        border-radius: 0 !important;
+    }
+    .sidebar #promotion article {
+        padding: 15px 0;
+    }
+    #main-content .banner {
+        padding: 15px;
+        background: #fff;
+    }
+    #notice {
+        margin: 0 15px;
+        background: #fff;
+    }
+    .card-deck {
+        display: block;
+    }
+    #news .card, #games .card, #promotion .card {
+        width: 50%;
+        float: left;
+        flex: 50%;
+        padding: 5px 15px;
+    }
+    .sidebar #top-rank {
+        border-radius: 0;
+        border: 0;
+    }
+    #news article {
+        margin-left: -15px;
+        margin-right: -15px;
+        overflow: hidden;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    #slider .container, #games {
+        padding: 0;
+    }
+    #slider img {
+        max-width: 100%;
+    }
+    .shadow {
+        display: none;
+    }
+    #games header, #promotion header {
+        padding-left: 15px;
+    }
+    #main-content .container {
+        overflow: hidden;
+    }
+    #news .card {
+        background: transparent;
+    }
+    #games .container {
+        border: 0;
+    }
+    #news .card-text {
+        /*display: none;*/
+        font-size: 10px;
+        color: #555;
+    }
+    .sidebar #promotion {
+        background: #000;
+    }
+    .sidebar #promotion header h3 {
+        margin-bottom: 15px;
+    }
+    #news .card img {
+        /*border: 2px solid;
+        border-image-source: linear-gradient(to right, #5a3c07, #e6cc95, #5a3c07);
+        border-image-slice: 20;*/
+        height: 85px;
+    }
+    #games .card img {
+        height: 70px;
+    }
+    #games .card {
+        width: 25%;
+        flex: 25%;
+        padding: 4px;
+    }
+    #games .card-title {
+        font-size: 12px;
+    }
+    #news .card-title {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #main-content {
+        overflow: hidden;
+    }
+    #news h3, #games h3, #promotion h3 {
+        font-size: 20px;
+    }
+    .logo {
+        width: 26%;
+        left: 37%;
+        margin-top: 15px !important;
+    }
+    #slider {
+        padding-top: 50px;
+    }
+    #myBtn {
+        display: none!important; /* Hidden by default */
+       
+    }
+    
+}
+
+
+.LockOff {
+	display: none;
+	visibility: hidden;
+}
+.LockOn {
+	display: block;
+	color: #fffcf6;
+	font-size:larger;
+	visibility: visible;
+	position: fixed;
+	z-index: 1030;
+	top: 20px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #000000e8;
+	text-align: center;
+	padding-top: 20%;
+	filter: alpha(opacity=96);
+	opacity: 0.96;
+}
+
+#myBtn {
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 250px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    size: 0vw;
+    width: 15%;
+}
+
+
+/* Promotion Page */
+.modal-body {
+    padding: 0rem;
+}
+
+.header_pro {
+    font-family: 'Prompt','Courier New', Courier, monospace;
+    position: relative;
+    font-size: 40px;
+    /* color: rgb(230, 230, 230); */
+    text-transform: normal;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+}
